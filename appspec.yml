@@ -6,7 +6,7 @@ files:
 
 hooks:
   BeforeInstall:
-   - location: scripts/remove_old_files
+    - location: scripts/remove_old_files
       timeout: 300
       runas: root
     - location: scripts/install_dependencies
