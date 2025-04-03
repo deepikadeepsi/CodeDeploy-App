@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Removing old index.html..."
+rm -f /var/www/html/index.html
+echo "Old index.html removed successfully."
